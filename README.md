@@ -1,6 +1,6 @@
 # Environment Configurations
 
-This document contains a list of terminal commands and git commands below.
+This document contains a list of terminal commands and git commands.
 
 ## Terminal Commands
 
@@ -82,13 +82,7 @@ This document contains a list of terminal commands and git commands below.
 13. Print working directory
 
     ```bash
-    pwd
-    ```
-
-    2. Change directory
-
-    ```bash
-    cd <directory name>
+    code .
     ```
 
 ## Git Commands
@@ -97,32 +91,55 @@ This document contains a list of terminal commands and git commands below.
 
 1.  Intiziale Git repository
 
-```bash
-git init
-```
+    ```bash
+    git init
+    ```
 
-2. To check the status
+2.  To check the status
 
-```bash
-git status
-```
+    ```bash
+    git status
+    ```
+
+3.  To insert the copy of a repo from remote to local
+
+    ```bash
+    git clone
+    ```
+
+4.  To great a branch
+
+    ```bash
+    git branch Name_of_branch
+    ```
+
+5.  To switch to another branch
+
+    ```bash
+    git checkout Name_of_branch
+    ```
+
+6.  To reset a step
+    ```bash
+    git reset
+    ```
 
 ### Git Staging
 
 1. To add file
 
-```bash
-git add file_name
-```
+   ```bash
+   git add file_name
+   ```
 
 2. To commit
 
-```bash
-git commit -m "Message of changes you made"
-```
+   ```bash
+   git commit -m "Message of changes you made"
+   ```
 
 3. To push
 
-```bash
-git push
-```
+   ```bash
+   git push
+   ```
