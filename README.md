@@ -79,7 +79,7 @@ This document contains a list of terminal commands and git commands.
      open file_name
     ```
 
-13. Print working directory
+13. Open a file in the code editor
 
     ```bash
     code .
@@ -89,7 +89,7 @@ This document contains a list of terminal commands and git commands.
 
 <!-- Write explanation-->
 
-1.  Intiziale Git repository
+1.  Initialize Git repository
 
     ```bash
     git init
